@@ -262,7 +262,7 @@ const tests = [
             }
 
         ]
-    }
+    },
     {
         class: "9",
         subject: "mathematics",
