@@ -17,14 +17,14 @@ const tests = [
                 explanation: "Если пять седьмых  — в твердом переплёте, тогда две седьмых в мягком. Решим задачу методом пропорций: так как 12 книг в мягком переплёте составляют две седьмых от всех книг, количество всех книг  — 42 штуки."
             },
             {
-                question: 'Найти значение выражения<br><img src="mat 5/дробь.png" style="max-width:100px;">',
+                question: 'Найти значение выражения<br><img src="mat 5/drob.png" style="max-width:100px;">',
                 options: [
-                    '<img src="mat 5/др отв 1.png" style="max-width:50px;">',
-                    '<img src="mat 5/др отв 2.png" style="max-width:50px;">',
-                    '<img src="mat 5/др отв 3.png" style="max-width:50px;">',
-                    '<img src="mat 5/др отв 4.png" style="max-width:50px;">'
+                    '<img src="mat 5/dr_otv_1.png" style="max-width:50px;">',
+                    '<img src="mat 5/dr_otv_2.png" style="max-width:50px;">',
+                    '<img src="mat 5/dr_otv_3.png" style="max-width:50px;">',
+                    '<img src="mat 5/dr_otv_4.png" style="max-width:50px;">'
                 ],
-                correctAnswer: '<img src="mat 5/др_отв_1.png" style="max-width:500px;">',
+                correctAnswer: '<img src="mat 5/dr_otv_1.png" style="max-width:500px;">',
                 explanation: "На картинке — правильный вариант 1."
             },
             {
@@ -64,7 +64,7 @@ const tests = [
                 explanation: "12×4 = 48 <br> 48 - 76 = -28"
             },
             {
-                question: 'Найти значение выражения<br><img src="mat 6/2_др.png" style="max-width:400px;">',
+                question: 'Найти значение выражения<br><img src="mat 6/2_dr.png" style="max-width:400px;">',
                 options: ["3/5", "6/7", "4/5", "5"],
                 correctAnswer: "3/5",
                 explanation: ""
@@ -94,7 +94,7 @@ const tests = [
                 explanation: "Выясним, сколько прошел путник в первый день: 40 · 0,25  =  10 км. В второй день путник прошел на 20% меньше, то есть 10 · 0,8  =  8 км. Тогда оставшийся путь равен 40 − 10 − 8  =  22 км. Найдем, сколько составляет оставшаяся часть пути от изначально планируемого: 22 : 40  =  0,55  =  55%."
             },
             {
-                question: 'Найдите неизвестный член пропорции. <img src="mat 6/пропорция.png" style="max-width:300px;">',
+                question: 'Найдите неизвестный член пропорции. <img src="mat 6/proporcia.png" style="max-width:300px;">',
                 options: ["5/4", "4/5", "4", "2/3"],
                 correctAnswer: "5/4",
                 explanation: "Произведение крайних членов равно произведению средних."
@@ -112,10 +112,10 @@ const tests = [
         subject: "mathematics",
         questions: [
             {
-                question: 'Найти значение выражения<br><img src="mat 7/дроби.png" style="max-width:200px;">',
+                question: 'Найти значение выражения<br><img src="mat 7/dr.png" style="max-width:200px;">',
                 options: ["6", "8", "2/3", "4/5"],
                 correctAnswer: "8",
-                explanation: '<br> <img src="mat 7/дроби_ответ.png" style="max-width:400px;">'
+                explanation: '<br> <img src="mat 7/dr_otv.png" style="max-width:400px;">'
             },
             {
                 question: "Решите уравнение: 3x − 2(3x − 2)  =  19.",
@@ -130,16 +130,16 @@ const tests = [
                 explanation: "В прямоугольном треугольнике ABC с прямым углом C проведена высота CD. Найдите величину угла B, если DA  =  12, а AC  =  24. Ответ дайте в градусах."
             },
             {
-                question: 'Найти значение выражения при а=1,5 и b=7 <br>  <img src="mat 7/дроби_2.png" style="max-width:300px;">',
+                question: 'Найти значение выражения при а=1,5 и b=7 <br>  <img src="mat 7/dr_2.png" style="max-width:300px;">',
                 options: ["2", "-2", "2/3", "-5"],
                 correctAnswer: "-2",
-                explanation: 'Упростим выражение:<br> <img src=\"mat 7/дроби_2_отв_1.png\" style=\"max-width:200px;\"> <br> Подставим исходные данные и найдем значение выражения:<br> <img src=\"mat 7/дроби 2 отв 2.png\" style=\"max-width:200px;\">',
+                explanation: 'Упростим выражение:<br> <img src=\"mat 7/dr_2_otv_1.png\" style=\"max-width:200px;\"> <br> Подставим исходные данные и найдем значение выражения:<br> <img src=\"mat 7/dr_2_otv_2.png\" style=\"max-width:200px;\">',
             },
             {
-                question: 'Решите систему уравнений <br>  <img src="mat 7/сист_ур.png" style="max-width:300px;">',
+                question: 'Решите систему уравнений <br>  <img src="mat 7/syst_ur.png" style="max-width:300px;">',
                 options: ["(1,5;2)", "(2;1,5)", "(5;2)", "(2;5)"],
                 correctAnswer: "(2;1,5)",
-                explanation: 'Разделим обе части первого уравнения на 2 и решим систему методом подстановки:<br> <img src=\"mat 7/сист_ур_отв.png\" style=\"max-width:400px;\">',
+                explanation: 'Разделим обе части первого уравнения на 2 и решим систему методом подстановки:<br> <img src=\"mat 7/syst_ur_otv.png\" style=\"max-width:400px;\">',
             },
             {
                 question: 'Принадлежит ли точка (2; 5) графику функции y = 2x + 1?',
@@ -159,7 +159,7 @@ const tests = [
                 explanation: 'По формуле квадрата суммы: (a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup>.'
             },
             {
-                question: 'Прямые m и n параллельны. Найдите ∠3, если ∠1 = 129°, ∠2 = 1°. Ответ дайте в градусах. <br> <img src="mat 7/геом 1.png" style="max-width:300px;">',
+                question: 'Прямые m и n параллельны. Найдите ∠3, если ∠1 = 129°, ∠2 = 1°. Ответ дайте в градусах. <br> <img src="mat 7/geom1.png" style="max-width:300px;">',
                 options: ["60", "50", "130", "30"],
                 correctAnswer: '50',
                 explanation: 'Сумма углов при параллельных прямых равна 180°. Значит, ∠3 = 180° - ∠1 - ∠2 = 180° - 129° - 1° = 50°.'
@@ -177,10 +177,10 @@ const tests = [
         subject: "mathematics",
         questions: [
             {
-                question: 'Найти значение выражения<br><img src="mat 7/дроби.png" style="max-width:200px;">',
+                question: 'Найти значение выражения<br><img src="mat 7/dr.png" style="max-width:200px;">',
                 options: ["6", "8", "2/3", "4/5"],
                 correctAnswer: "8",
-                explanation: '<br> <img src="mat 7/дроби_ответ.png" style="max-width:400px;">'
+                explanation: '<br> <img src="mat 7/dr_otv.png" style="max-width:400px;">'
             },
             {
                 question: "Решите уравнение: 3x − 2(3x − 2)  =  19.",
@@ -189,16 +189,16 @@ const tests = [
                 explanation: "Найдем корень уравнения: <br> 3x - 2(3x - 2) = 19 <br> 3x - 6x + 4 = 19 <br> -3x + 4 = 19 <br> -3x = 15 <br> x = -5"
             },
             {
-                question: 'Найти значение выражения при а=1,5 и b=7 <br>  <img src="mat 7/дроби_2.png" style="max-width:300px;">',
+                question: 'Найти значение выражения при а=1,5 и b=7 <br>  <img src="mat 7/dr_2.png" style="max-width:300px;">',
                 options: ["2", "-2", "2/3", "-5"],
                 correctAnswer: "-2",
-                explanation: 'Упростим выражение:<br> <img src=\"mat 7/дроби_2_отв_1.png\" style=\"max-width:200px;\"> <br> Подставим исходные данные и найдем значение выражения:<br> <img src=\"mat 7/дроби_2_отв_2.png\" style=\"max-width:200px;\">',
+                explanation: 'Упростим выражение:<br> <img src=\"mat 7/dr_2_otv_1.png\" style=\"max-width:200px;\"> <br> Подставим исходные данные и найдем значение выражения:<br> <img src=\"mat 7/dr_2_otv_2.png\" style=\"max-width:200px;\">',
             },
             {
                 question: "Одно число больше другого на 22, а их произведение равно −120. Найдите эти числа. <br> В ответе укажите найденные числа без пробелов в порядке возрастания.",
                 options: ["2", "-2", "2/3", "-5"],
                 correctAnswer: "-2",
-                explanation: '',
+                explanation: "Пусть x  — меньшее из двух чисел, тогда большее из них равно x + 22. Так как произведение чисел равно −120, составим уравнение: <br> <img src=\"mat 8/kv_ur.png\" style=\"max-width:200px;\"> <br> Таким образом, искомые числа равны −10 и 12 или −12 и 10.",
             },
             {
                 question: "Решите квадратное уравнение: x² - 5x + 6 = 0.",
@@ -216,7 +216,7 @@ const tests = [
                 question: 'Найдите наибольшее значение x, удовлетворяющее системе неравенств <br> <img src="mat 8/сист 1.png" style="max-width:300px;">',
                 options: ["-1", "-3; -6", "-6; -3", "-6"],
                 correctAnswer: "-3",
-                explanation: 'Решим систему: <br> <img src="mat 8/сист_2.png" style="max-width:300px;"> <br> Искомое наибольшее решение равно −3.'
+                explanation: 'Решим систему: <br> <img src="mat 8/syst2.png" style="max-width:300px;"> <br> Искомое наибольшее решение равно −3.'
             },
             {
                 question: "В прямоугольном треугольнике катеты равны 6 см и 8 см. Найдите гипотенузу.",
@@ -261,11 +261,11 @@ const tests = [
         class: "9",
         subject: "mathematics",
         questions: [
-              {
-                question: 'Найти значение выражения<br><img src="mat 7/дроби.png" style="max-width:200px;">',
+            {
+                question: 'Найти значение выражения<br><img src="mat 7/dr.png" style="max-width:200px;">',
                 options: ["6", "8", "2/3", "4/5"],
                 correctAnswer: "8",
-                explanation: '<br> <img src="mat 7/дроби_ответ.png" style="max-width:400px;">'
+                explanation: '<br> <img src="mat 7/dr_otv.png" style="max-width:400px;">'
             },
             {
                 question: "Решите уравнение: 3x − 2(3x − 2)  =  19.",
@@ -274,16 +274,16 @@ const tests = [
                 explanation: "Найдем корень уравнения: <br> 3x - 2(3x - 2) = 19 <br> 3x - 6x + 4 = 19 <br> -3x + 4 = 19 <br> -3x = 15 <br> x = -5"
             },
             {
-                question: 'Найти значение выражения при а=1,5 и b=7 <br>  <img src="mat 7/дроби_2.png" style="max-width:300px;">',
+                question: 'Найти значение выражения при а=1,5 и b=7 <br>  <img src="mat 7/dr_2.png" style="max-width:300px;">',
                 options: ["2", "-2", "2/3", "-5"],
                 correctAnswer: "-2",
-                explanation: 'Упростим выражение:<br> <img src=\"mat 7/дроби_2_отв_1.png\" style=\"max-width:200px;\"> <br> Подставим исходные данные и найдем значение выражения:<br> <img src=\"mat 7/дроби_2_отв_2.png\" style=\"max-width:200px;\">',
+                explanation: 'Упростим выражение:<br> <img src=\"mat 7/dr_2_otv_1.png\" style=\"max-width:200px;\"> <br> Подставим исходные данные и найдем значение выражения:<br> <img src=\"mat 7/dr_2_otv_2.png\" style=\"max-width:200px;\">',
             },
             {
                 question: "Одно число больше другого на 22, а их произведение равно −120. Найдите эти числа. <br> В ответе укажите найденные числа без пробелов в порядке возрастания.",
                 options: ["2", "-2", "2/3", "-5"],
                 correctAnswer: "-2",
-                explanation: '',
+                explanation: "Пусть x  — меньшее из двух чисел, тогда большее из них равно x + 22. Так как произведение чисел равно −120, составим уравнение: <br> <img src=\"mat 8/kv_ur.png\" style=\"max-width:200px;\"> <br> Таким образом, искомые числа равны −10 и 12 или −12 и 10.",
             },
             {
                 question: "Решите квадратное уравнение: x² - 5x + 6 = 0.",
@@ -301,7 +301,7 @@ const tests = [
                 question: 'Найдите наибольшее значение x, удовлетворяющее системе неравенств <br> <img src="mat 8/сист 1.png" style="max-width:300px;">',
                 options: ["-1", "-3; -6", "-6; -3", "-6"],
                 correctAnswer: "-3",
-                explanation: 'Решим систему: <br> <img src="mat 8/сист_2.png" style="max-width:300px;"> <br> Искомое наибольшее решение равно −3.'
+                explanation: 'Решим систему: <br> <img src="mat 8/syst2.png" style="max-width:300px;"> <br> Искомое наибольшее решение равно −3.'
             },
             {
                 question: "В прямоугольном треугольнике катеты равны 6 см и 8 см. Найдите гипотенузу.",
@@ -341,5 +341,5 @@ const tests = [
             }
 
         ]
-    },
+    }
 ];
