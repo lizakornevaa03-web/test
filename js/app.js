@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Кнопка "Показать результат"
     let showResultBtn = document.createElement("button");
     showResultBtn.textContent = "Показать результат";
+    showResultBtn.className = "show-result-btn";
     showResultBtn.style.display = "none";
     showResultBtn.style.marginTop = "20px";
     testDiv.appendChild(showResultBtn);
@@ -159,8 +160,11 @@ document.addEventListener("DOMContentLoaded", function() {
             if (answers[idx] === q.correctAnswer) correct++;
         });
         scoreP.textContent = `Правильных ответов: ${correct} из ${currentTest.questions.length}`;
-        resultDiv.classList.remove("hidden");
-        showResultBtn.style.display = "none";
+
+    // Кастомный текст вместо обычного результата
+    resultDiv.innerHTML = `<div class="report"><b>Молодец!</b> Тестирование успешно пройдено, ты выполнил большую работу!<br>Подробные результаты тестирования и план обучения пришлем на WhatsApp.</div>`;
+    resultDiv.classList.remove("hidden");
+    showResultBtn.style.display = "none";
 
         // Сохраняем результат теста в localStorage
         let phone = phoneInput.value.trim();
